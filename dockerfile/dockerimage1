@@ -1,0 +1,9 @@
+# getting base image ubuntu
+FROM ubuntu
+MAINTAINER allam <soundarya.allam@gmail.com>
+
+RUN apt-get update
+
+
+CMD ["echo", "hello world...! from my first docker image"]
+
